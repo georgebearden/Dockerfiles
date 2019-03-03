@@ -39,3 +39,5 @@ VOLUME ["/data"]
 
 # Define working directory.
 WORKDIR /data
+
+# CMD ["redis-cli", "-h", "redis1", "-p", "6379"]

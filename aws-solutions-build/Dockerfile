@@ -1,7 +1,11 @@
 FROM amazonlinux:latest
 
 RUN yum -y install tar \
+    zip \
+    unzip \
     gzip \
+    rsync \
+    dos2unix \
     && yum clean all
 
 RUN touch ~/.bashrc
